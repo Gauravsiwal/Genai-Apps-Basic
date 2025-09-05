@@ -2,7 +2,9 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 import streamlit as st
 from dotenv import load_dotenv
 
+
 load_dotenv()
+
 model = ChatGoogleGenerativeAI(model='gemini-2.0-flash-lite',temperature=0.7)
 
 
