@@ -1,4 +1,4 @@
-## Basic Genai Codes
+## Genai Frontend Apps Basic Setup
 ### Getting Started
 * Install VS code
 * Install jupyter and python extensions.
@@ -16,3 +16,10 @@
 * Make sure to make repository public before commiting (By defualt it is private)
 
 ### Open VS code, select the created folder and start working...
+
+### Adding API key to local environment
+* open cmd or powershell
+* type setx GOOGLE_API_KEY "XXXXXXXXXXXX"
+* in python script import os
+* key = os.getenv('GOOGLE_API_KEY')
+* Make sure to configure the api key on stremalit when deploying (Advance Setup)
