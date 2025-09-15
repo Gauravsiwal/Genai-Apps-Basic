@@ -20,6 +20,7 @@
 ### Adding API key to local environment
 * open cmd or powershell
 * type setx GOOGLE_API_KEY "XXXXXXXXXXXX"
+* For MAC export GOOGLE_API_KEY "xxxxxxxxxxxxxx"
 * in python script import os
 * key = os.getenv('GOOGLE_API_KEY')
 * Make sure to configure the api key on stremalit when deploying (Advance Setup)
