@@ -1,0 +1,70 @@
+Prompt engineering is about **designing effective instructions** for AI models (like me) so they give you the most accurate, useful, or creative responses. Think of it like writing a **query in SQL** or giving **precise requirements to a programmer** — the clearer you are, the better the output.
+
+Here are the **basics of prompt engineering**:
+
+---
+
+### 1. **Clarity and Specificity**
+
+* Be clear about what you want.
+* Vague prompt: *"Tell me about Python."*
+* Clear prompt: *"Explain Python programming basics for someone with no coding background, using real-world analogies."*
+
+---
+
+### 2. **Role Assignment**
+
+* Tell the AI *who it should act as*.
+* Example: *"You are a career coach. Help me prepare for a data analyst interview."*
+
+---
+
+### 3. **Context and Constraints**
+
+* Provide enough context and set boundaries.
+* Example: *"Summarize this research paper in 5 bullet points, each under 15 words."*
+
+---
+
+### 4. **Step-by-Step Instructions**
+
+* Break down complex tasks.
+* Example: *"First explain what a database is, then explain SQL with an example query."*
+
+---
+
+### 5. **Formatting Guidance**
+
+* Tell the AI how to present the answer.
+* Example: *"Compare compiler vs interpreter in a table format."*
+
+---
+
+### 6. **Iteration & Refinement**
+
+* Start broad, then refine.
+* Example:
+
+  1. *"Explain machine learning."*
+  2. *"Now explain it as if I’m 10 years old."*
+  3. *"Give me a real-world example related to Netflix recommendations."*
+
+---
+
+### 7. **Use of Few-shot / Examples**
+
+* Give examples of what kind of output you want.
+* Example:
+  *"Translate the following sentences to French. Example: 'Good morning' → 'Bonjour'."*
+
+---
+
+### 8. **Control Output Length**
+
+* If you want short or detailed answers, specify.
+* Example: *"Summarize in 3 sentences."* vs. *"Write a detailed guide of at least 500 words."*
+
+---
+
+✅ **Analogy:** Prompt engineering is like **writing a search query for Google + giving detailed requirements to a freelancer**. If you just type *“AI”*, you’ll get generic results. But if you say *“Explain AI basics in simple words with a healthcare example, in under 200 words”*, you’ll get exactly what you want.
+
